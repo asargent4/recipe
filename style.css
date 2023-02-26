@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet");
-*{
-  margin: 0;
-  padding: 0;
-}
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap);
 
 html{
   background-color: rgba(122, 191, 191, 0.5);
@@ -15,11 +11,16 @@ body{
   display: grid;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
 h1, h2, h3, nav a, nav span, figcaption, menu li, #social li, footer{
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Montserract-Bold 300', sans-serif;
 }
 p, dt, dd, li, nav, input, ::placeholder{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Regular 700', sans-serif;
   font-size: 16px;
 }
 nav a, nav span, figcaption, menu li, #social li, footer {
